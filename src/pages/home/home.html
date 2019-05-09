@@ -5,13 +5,44 @@
 </ion-header>
 
 <ion-content padding class="home">
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+  <ion-grid>
+    <ion-row>
+      <h2 class="toolbar-title title-bar"><strong>Weather Forecast</strong></h2>
+    </ion-row>
+    <ion-row>
+      <ion-col width-50 offset-25>
+          <div class="icon"><img src="https://openweathermap.org/img/w/09n.png" alt="weather-icon"></div>
+      </ion-col>
+      <ion-col width-70>
+        <h1 class="temp">24&deg;</h1>
+        <h3 class="desc">Mostly Cloudy</h3>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-100>
+        <h5 class="location">Manila, Philippines</h5>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-100>
+          <ion-list>
+              <ion-item>
+                  <strong>Wind: </strong> 23&deg;
+              </ion-item>
+              <ion-item>
+                  <strong>Humidity: </strong> 83 &#37;
+              </ion-item>
+              <ion-item>
+                  <strong>Pressure: </strong> 23 hpa
+              </ion-item>
+              <ion-item>
+                  <strong>Sunrise: </strong> 06:30 am
+              </ion-item>
+              <ion-item>
+                  <strong>Sunset: </strong> 05:30 pm
+              </ion-item>
+          </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>  
 </ion-content>
