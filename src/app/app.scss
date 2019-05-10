@@ -13,7 +13,7 @@
     color: #ccc;
 }
 .temp {
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     font-weight: normal;
 }
@@ -21,13 +21,14 @@
     text-align: center;
 }
 img {
-    width: 100px;
+    width: 80px;
 }
 .location {
     font-size: 20px;
 }
 .desc {
     font-size: 20px;
+    text-transform: capitalize;
 }
 .strong-sunset {
     text-align: right;
